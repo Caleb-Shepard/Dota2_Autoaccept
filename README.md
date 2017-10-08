@@ -1,7 +1,7 @@
 # Alexa_Auto_Accept_Dota2
 Welcome to *Alexa Auto-Accept Dota2*, this is a new skill for Alexa that allows her to be interacted with via voice commands to accept or decline a queue pop-up for Dota 2. <br />
 
-# Installation
+# Installation and Excecution
 1) Debian based distros only
 ```
 sudo apt-get install wmctrl xdotool python-dbus inotify-send
@@ -10,7 +10,12 @@ sudo apt-get install wmctrl xdotool python-dbus inotify-send
 ```
 git clone https://github.com/Caleb-Shepard/Dota2_Autoaccept_Alexa
 ```
-
+3) Run
+```
+# on client side
+cd Dota2_Autoaccept_Alexa
+python2.7 doto.py
+```
 
 
 # Prerequisites
