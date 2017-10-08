@@ -1,4 +1,5 @@
 #!/usr/bin/env python
+import socket
 import dbus
 from dbus.mainloop.glib import DBusGMainLoop
 from subprocess import call, Popen, PIPE
@@ -21,6 +22,8 @@ def filter_cb(bus, message):
 	summary=args[3]
 	body=args[4]
 	if 'game is ready' in body:
+                notBard()
+                print('line 26')
 		cur_win=Popen(["xdotool", "getwindowfocus", "getwindowname"],stdout=PIPE)
 		(current_window,err)=cur_win.communicate()
 		current_window=current_window.rstrip('\n')
@@ -33,6 +36,18 @@ def filter_cb(bus, message):
 			call(["wmctrl", "-a", current_window])
 			print("switched back to %s" % current_window)
 
+def notBard():
+    TCP_IP = '127.0.0.1'
+    TCP_PORT = 5005
+    BUFFER_SIZE = 1024
+    MESSAGE = "Queue ready!"
+
+    s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+    s.connect((TCP_IP, TCP_PORT))
+    s.send(MESSAGE)
+    data = s.recv(BUFFER_SIZE)
+    s.close()
+    print "received data:", data
 
 def main():
 	DBusGMainLoop(set_as_default=True)
