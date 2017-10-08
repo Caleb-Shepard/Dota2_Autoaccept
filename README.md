@@ -11,8 +11,8 @@ sudo apt-get install wmctrl xdotool python-dbus inotify-send
 git clone https://github.com/Caleb-Shepard/Dota2_Autoaccept_Alexa
 ```
 3) Run
-```
 # on client side
+```
 cd Dota2_Autoaccept_Alexa
 python2.7 doto.py
 ```
