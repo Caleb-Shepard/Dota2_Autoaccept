@@ -10,11 +10,18 @@ sudo apt-get install wmctrl xdotool python-dbus inotify-send
 ```
 git clone https://github.com/Caleb-Shepard/Dota2_Autoaccept_Alexa
 ```
-3) Run
-# on client side
+3) Run <br />
+Client side
 ```
+# once launched, begins listening for queue notifications from gnome-shell
 cd Dota2_Autoaccept_Alexa
 python2.7 doto.py
+```
+Alexa
+# get ip
+Server Side
+```
+
 ```
 
 
