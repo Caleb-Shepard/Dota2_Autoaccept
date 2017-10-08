@@ -14,16 +14,16 @@ git clone https://github.com/Caleb-Shepard/Dota2_Autoaccept_Alexa
 
 
 # Prerequisites
-> Amazon's [Alexa](https://www.amazon.com/b/?ie=UTF8&node=9818047011&tag=mh0b-20&hvadid=77721756043382&hvqmt=e&hvbmt=be&hvdev=c&ref=pd_sl_iwlt1gvek_e) <br />
-> Debian based distro (will fix for OSX and Windows) <br />
-> Have Python 2.7 installed
+- Amazon's [Alexa](https://www.amazon.com/b/?ie=UTF8&node=9818047011&tag=mh0b-20&hvadid=77721756043382&hvqmt=e&hvbmt=be&hvdev=c&ref=pd_sl_iwlt1gvek_e) <br />
+- Debian based distro (will fix for OSX and Windows) <br />
+- Have Python 2.7 installed
 ```
 sudo apt install python2.7
 ```
 <br />
-> 2 GB RAM <br />
-> 30 MB  <br />
-> Dota 2 installed  <br />
+- 2 GB RAM <br />
+- 30 MB  <br />
+- Dota 2 installed  <br />
 
 # Voice Commands
 "Alexa, accept que." <br />
