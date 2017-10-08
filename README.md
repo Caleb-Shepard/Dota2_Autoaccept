@@ -22,8 +22,13 @@ For python3 you also need python3-gi
 
 # Prerequisites
 Amazon's [Alexa](https://www.amazon.com/b/?ie=UTF8&node=9818047011&tag=mh0b-20&hvadid=77721756043382&hvqmt=e&hvbmt=be&hvdev=c&ref=pd_sl_iwlt1gvek_e) <br />
+Debian based distro (will fix for OSX and Windows) <br />
+```
+sudo apt-get install wmctrl xdotool python-dbus inotify-send
+```
 2 GB RAM <br />
-30 MB  
+30 MB  <br />
+
 
 # Voice Commands
 "Alexa, accept que." <br />
