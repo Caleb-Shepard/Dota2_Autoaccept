@@ -33,7 +33,7 @@ Current Release - 10/08/2017
 
 # Authors
 [Caleb Shepard](https://github.com/Caleb-Shepard) <br />
-[Andy Shepard](https://github.com/Andrew-Shepard) <br />
+[Andrew Shepard](https://github.com/Andrew-Shepard) <br />
 [Derek Donahue](https://www.facebook.com/derek.donahue.94) <br />
 [Tiger Sachse](https://github.com/tgsachse)
 
