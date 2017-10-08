@@ -18,7 +18,6 @@ cd Dota2_Autoaccept_Alexa
 python2.7 doto.py
 ```
 Alexa
-# get ip
 Server Side
 ```
 
