@@ -22,7 +22,7 @@ git clone https://github.com/Caleb-Shepard/Dota2_Autoaccept_Alexa
 * Have Python 2.7 installed
 ```
 sudo apt install python2.7
-``` <br />
+``` 
 # Voice Commands
 "Alexa, accept que." <br />
 "Alexa, decline que."
