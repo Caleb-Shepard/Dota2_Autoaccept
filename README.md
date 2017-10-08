@@ -2,33 +2,29 @@
 Welcome to *Alexa Auto-Accept Dota2*, this is a new skill for Alexa that allows her to be interacted with via voice commands to accept or decline a queue pop-up for Dota 2. <br />
 
 # Installation
-Python required
-```
-sudo apt install python2.7
-```
-Must be a debian based distro:
+1) Debian based distros only:
 ```
 sudo apt-get install wmctrl xdotool python-dbus inotify-send
 ```
-
+2) Download repository
+```
+git clone https://github.com/Caleb-Shepard/Dota2_Autoaccept_Alexa
+```
 
 
 
 # Prerequisites
-Amazon's [Alexa](https://www.amazon.com/b/?ie=UTF8&node=9818047011&tag=mh0b-20&hvadid=77721756043382&hvqmt=e&hvbmt=be&hvdev=c&ref=pd_sl_iwlt1gvek_e) <br />
-Debian based distro (will fix for OSX and Windows) <br />
-2 GB RAM <br />
-30 MB  <br />
-Dota 2 <br />
+> Amazon's [Alexa](https://www.amazon.com/b/?ie=UTF8&node=9818047011&tag=mh0b-20&hvadid=77721756043382&hvqmt=e&hvbmt=be&hvdev=c&ref=pd_sl_iwlt1gvek_e) <br />
+> Debian based distro (will fix for OSX and Windows) <br />
+> Have Python 2.7 installed
 ```
-Processor: Dual core from Intel or AMD at 2.8 GHz.
-Memory: 4 GB RAM.
-Graphics: nVidia GeForce 8600/9600GT, ATI/AMD Radeon HD2600/3600.
-DirectX: Version 9.0c.
-Network: Broadband Internet connection.
-Storage: 15 GB available space.
-Sound Card: DirectX Compatible.
+sudo apt install python2.7
 ```
+<br />
+> 2 GB RAM <br />
+> 30 MB  <br />
+> Dota 2 installed  <br />
+
 # Voice Commands
 "Alexa, accept que." <br />
 "Alexa, decline que."
