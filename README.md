@@ -19,7 +19,16 @@ Amazon's [Alexa](https://www.amazon.com/b/?ie=UTF8&node=9818047011&tag=mh0b-20&h
 Debian based distro (will fix for OSX and Windows) <br />
 2 GB RAM <br />
 30 MB  <br />
-
+Dota 2 <br />
+```
+Processor: Dual core from Intel or AMD at 2.8 GHz.
+Memory: 4 GB RAM.
+Graphics: nVidia GeForce 8600/9600GT, ATI/AMD Radeon HD2600/3600.
+DirectX: Version 9.0c.
+Network: Broadband Internet connection.
+Storage: 15 GB available space.
+Sound Card: DirectX Compatible.
+```
 # Voice Commands
 "Alexa, accept que." <br />
 "Alexa, decline que."
