@@ -45,4 +45,4 @@ Current Release - 10/08/2017
 [Tiger Sachse](https://github.com/tgsachse)
 
 # License
-[MIT License](license)
+[MIT License](LICENSE)
