@@ -8,7 +8,8 @@ import sys
 try:
 	import glib
 except ImportError:
-	from gi.repository import GLib as glib
+    from gi.repository import GLib as glib
+#	from gi import *    # as a hotfix? Creates more problems
 
 switch_back=1
 switch_delay=1
@@ -23,11 +24,6 @@ def filter_cb(bus, message):
 		cur_win=Popen(["xdotool", "getwindowfocus", "getwindowname"],stdout=PIPE)
 		(current_window,err)=cur_win.communicate()
 		current_window=current_window.rstrip('\n')
-
-        #then accept
-        #forced code where we think the conditional will be
-        print('This is where the Alexa condiitional should get called')
-        sleep 1
 
 		call(["wmctrl", "-a", "Dota 2"])
 		time.sleep(switch_delay) #Wait in case the computer is slow to switch.
