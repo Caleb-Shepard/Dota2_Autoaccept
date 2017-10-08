@@ -24,6 +24,11 @@ def filter_cb(bus, message):
 		(current_window,err)=cur_win.communicate()
 		current_window=current_window.rstrip('\n')
 
+        #then accept
+        #forced code where we think the conditional will be
+        print('This is where the Alexa condiitional should get called')
+        sleep 1
+
 		call(["wmctrl", "-a", "Dota 2"])
 		time.sleep(switch_delay) #Wait in case the computer is slow to switch.
 		call(["xdotool", "key", "Return"])
